@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dip"
+    android:layout_gravity="center">
+	<TableRow>
+		<Button
+		  android:id="@+id/ButtonCopy"
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content" 
+	      android:text="@string/ButtonCopy_Text" 
+	      android:paddingTop="6dip"
+		/>
+		<EditText
+		android:id="@+id/EditCopy"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:text="@string/EditCopy_text"
+	    android:paddingTop="2dip"
+	    android:maxLength="10"
+	    />
+	</TableRow>
+	<TableRow>
+		<Button
+		  android:id="@+id/ButtonPaste"
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content" 
+	      android:text="@string/ButtonPaste_Text" 
+	      android:paddingTop="6dip"
+		/>
+		<EditText
+		android:id="@+id/EditPaste"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:text="@string/EditPaste_text"
+	    android:layout_alignTop="@id/ButtonPaste"
+	    android:paddingTop="2dip"
+	  	android:maxLength="10"
+	    />
+	</TableRow>
+</TableLayout>
+</LinearLayout>

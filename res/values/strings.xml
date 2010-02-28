@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CopyPaste</string>
+    <string name="ButtonCopy_Text">Copy</string>
+    <string name="ButtonPaste_Text">Paste</string>
+    <string name="EditCopy_text">Write Here</string>
+    <string name="EditPaste_text"></string>
+</resources>
